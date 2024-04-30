@@ -4,4 +4,4 @@
   - name: Print Hello World
     debug:
       msg:
-      - "Hello World  Here are Morpheus extra_vars: {{ morpheus }}"
+      - "Hello World  Here are Morpheus extra_vars:{{ morpheus['zone']['location'] }}"
